@@ -1,0 +1,290 @@
+body {
+background-color: antiquewhite;
+margin: none;
+nav {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: brown;
+    font-size: 20px;
+
+    p {
+        align-content: center;
+        height: 50px;
+        padding: 10px;
+        margin-right: 50px;
+    }
+    a {
+        border: 1px solid;
+        color: darkolivegreen;
+        align-content: center;
+        border-radius: 10px;
+        width: fit-content;
+        height: 50px;
+        padding: 10px;
+        margin-left: 50px;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.splash {
+    border-style: dashed;
+    border-color: brown;
+    display: grid;
+    grid-template-rows: 4;
+    justify-content: center;
+    background-color: rgb(255, 196, 164);
+    color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        margin: 0;
+
+    }
+    img {
+        justify-self: center;
+        border-color: brown;
+        border-style: double;
+        border-width: 5px;
+        border-radius: 20px;
+    }
+    .info {
+        text-align: center;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        font-size: large;
+        font-style: italic;
+        grid-column-end: 1;
+    }
+}
+
+hr {
+    border-top: 5px dotted rgb(98, 163, 122);
+    width: 1000px;
+}
+
+.edu {
+    background-color: bisque;
+    color: rgb(7, 45, 107);
+    border-style: dashed;
+    border-color: darkolivegreen;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    .courses {
+        dl {
+            .rc {
+                text-decoration: underline;
+                font-size: large;   
+                font-weight: bold; 
+            }
+            padding-left: 20px;
+        }
+        display: grid;
+        grid-template-columns: 400px 400px;
+        justify-content: center;
+    }
+}
+
+.honors {
+    background-color: bisque;
+    color: rgb(7, 45, 107);
+    border-style: dashed;
+    border-color: darkolivegreen;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    .dlAwards {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 25px;
+    }
+}
+.skills {
+    display: grid;
+    background-color: bisque;
+    color: rgb(7, 45, 107);
+    border-style: dashed;
+    border-color: darkolivegreen;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.leadership {
+    background-color: bisque;
+    color: rgb(7, 45, 107);
+    border-style: dashed;
+    border-color: darkolivegreen;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    a {
+        color: rgb(71, 47, 47);
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+
+    }
+    .dlLeader {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 25px;
+    }
+}
+.projects {
+    color: rgb(7, 45, 107);
+    .three-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card1 {
+        background-color: bisque;
+        grid-column: auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+        width: 1/3;
+        margin: 5px;
+        padding: 5px;
+        img {
+            width: 290px;
+        }
+        h3 {
+            text-decoration: underline;
+        }
+        border-radius: 10px;
+    
+    }
+    .card1:hover {
+        transition: 0.3s;
+        box-shadow: 0 8px 16px 0 rgba(37, 91, 255, 0.8);
+    }
+    .card2 {
+        background-color: bisque;
+        grid-column: auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+        transition: 0.3s;
+        width: 1/3;
+        margin: 5px;
+        padding: 5px;
+        img {
+            width: 333px;
+
+        }
+        h3 {
+            text-decoration: underline;
+        }
+        border-radius: 10px;
+    }
+    
+    .card2:hover {
+        transition: 0.3s;
+        box-shadow: 0 8px 16px 0 rgba(0, 179, 63, 0.8);
+    }
+    
+    .card3 {
+        background-color: bisque;
+        grid-column: auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+        transition: 0.3s;
+        width: 1/3;
+        margin: 5px;
+        padding: 5px;
+        img {
+            width: 333px;
+        }
+        h3 {
+            text-decoration: underline;
+        }
+        border-radius: 10px;
+     }
+
+}
+
+ .card3:hover {
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(207, 30, 30, 0.8);
+}
+ .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.marmelad-regular {
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(86, 166, 95);
+    padding: 25px;
+    color: antiquewhite;
+    a {
+       color: antiquewhite;
+    }
+
+   }
+.one-col {
+    color: brown;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.h1c {
+    font-size: 40px;
+    padding-bottom: none;
+}
+.one-col label[for="name"] {
+    margin: 5px;
+    font-size: large;
+}
+.one-col input[type="text"] {
+    border-color: rgb(89, 45, 45);
+    border-width: 2px;
+    border-style: solid;
+    height: 25px;
+}
+
+.one-col textarea[id="message"] {
+    border-color: rgb(89, 45, 45);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.one-col label[for="email"] {
+    margin: 5px;
+    font-size: large;
+}
+
+.one-col label[for="message"] {
+    margin: 5px;
+    font-size: large;
+}
+.contact {
+    color: brown
+}
+.one-col input[type="submit"] {
+    border-width: 2px;
+    background-color: antiquewhite;
+    color: brown;
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+}
